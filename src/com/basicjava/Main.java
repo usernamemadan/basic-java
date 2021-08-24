@@ -1,6 +1,7 @@
 package com.basicjava;
 
 import com.corejava.*;
+import com.functionalprograms.*;
 
 public class Main {
 
@@ -17,6 +18,14 @@ public class Main {
 		EvenOrOdd.evenOrOdd();
 		VowelOrConsonant.vowelOrconsonant();
 		Largest.largest();
+		
+		TwoDArray.twoDArray();
+		SumOf3.sumOf3();
+		if (args.length != 0)
+			Distance.distance(args);
+		Qudratic.quadratic();
+		if (args.length != 0)
+			WindChill.windChill(args);
 	}
 
 }
