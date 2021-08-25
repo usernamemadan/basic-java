@@ -9,7 +9,7 @@ public class LeapYear {
 		Scanner scanner = new Scanner(System.in);
 		int year = scanner.nextInt();
 		
-		if(year<1000 && year>9999) {
+		if(year<1000 || year>9999) {
 			System.out.println("Please enter four digit number \n exiting");
 			System.exit(0);
 		}
