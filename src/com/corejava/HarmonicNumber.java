@@ -17,7 +17,7 @@ public class HarmonicNumber {
 			System.exit(0);
 		}
 		
-		for(float i=1;i<=n;i++) {
+		for(int i=1;i<=n;i++) {
 			sum+=(1/i);
 		}
 		System.out.println("Harmonic number = " + sum);
